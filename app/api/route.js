@@ -7,7 +7,7 @@ const LoadDB = async () => {
 };
 
 LoadDB();
-export async function GET(request) {
+export async function GET() {
   const todos = await TodoModel.find({});
   return NextResponse.json({ todos: todos });
 }

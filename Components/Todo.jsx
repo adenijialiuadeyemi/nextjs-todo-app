@@ -8,7 +8,11 @@ const Todo = ({ todo, index, handleDelete, completeTodo }) => {
       <td className={`px-4 py-2 ${todo.isCompleted ? "line-through" : ""}`}>
         {todo.title}
       </td>
-      <td className={`px-4 py-2 ${todo.isCompleted ? "line-through" : ""}`}>
+      <td
+        className={`px-4 py-2 max-sm:hidden ${
+          todo.isCompleted ? "line-through" : ""
+        }`}
+      >
         {todo.description}
       </td>
       <td className="px-4 py-2 max-sm:hidden">

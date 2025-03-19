@@ -104,8 +104,8 @@ export default function Home() {
         </button>
       </form>
 
-      <div className="container px-4 md:px-16 mx-auto mt-10">
-        <table className="w-full">
+      <div className="container px-4 md:px-16 mx-auto mt-10 pb-10">
+        <table className="w-full ">
           <thead className="bg-gray-50">
             <tr className="border-b border-gray-200 text-sm text-left">
               <th className="px-4 py-2">ID</th>
